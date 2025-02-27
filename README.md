@@ -14,6 +14,14 @@ A To-Do application built with:
    ```bash
    git clone https://github.com/MohamadRiza/todo_app.git
 
+## Edit .env from backend
+PORT=5000
+DB_USER={USER NAME}
+DB_HOST=localhost
+DB_NAME=todo_app_db
+DB_PASSWORD={PSWD}
+DB_PORT={PGDB PSWD}
+
 ## Create DB using PGSQL
 ```bash
 CREATE DATABASE todo_app_db;
@@ -24,5 +32,3 @@ CREATE TABLE todos (
   description TEXT NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
-##ww
