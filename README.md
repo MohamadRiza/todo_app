@@ -15,12 +15,12 @@ A To-Do application built with:
    git clone https://github.com/MohamadRiza/todo_app.git
 
 ## Edit .env from backend
-PORT=5000
-DB_USER={USER NAME}
-DB_HOST=localhost
-DB_NAME=todo_app_db
-DB_PASSWORD={PSWD}
-DB_PORT={PGDB PSWD}
+- PORT=5000
+- DB_USER={USER NAME}
+- DB_HOST=localhost
+- DB_NAME=todo_app_db
+- DB_PASSWORD={PSWD}
+- DB_PORT={PGDB PSWD}
 
 ## Create DB using PGSQL
 ```bash
